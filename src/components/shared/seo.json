@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "metaImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "metaViewport": {
+      "type": "string"
+    },
+    "metaRobots": {
+      "type": "string"
+    }
+  }
+}

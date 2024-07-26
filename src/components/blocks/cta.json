@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "Cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.test"
+    }
+  }
+}

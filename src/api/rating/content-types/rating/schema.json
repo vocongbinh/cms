@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ratings",
+  "info": {
+    "singularName": "rating",
+    "pluralName": "ratings",
+    "displayName": "Rating",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "application": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::application.application"
+    },
+    "value": {
+      "type": "float",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
